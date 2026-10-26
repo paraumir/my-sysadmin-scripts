@@ -1,3 +1,12 @@
 # Generated monitoring logs
 monitor.log
 *.log
+
+# Private keys and local environment files
+*.key
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
